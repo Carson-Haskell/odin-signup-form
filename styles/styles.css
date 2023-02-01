@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.page-container {
+    display: flex;
+    height: 100vh;
+    width: 80%;
+    background-color: rgba(239, 239, 239, 0.451);
+    margin: 0 auto;
+}
+
+.photo {
+    height: 100%;
+    flex: 1;
+    background-image: url('../img/leaf-background.jpg');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+
+.logo {
+    color: white;
+    font-size: 50px;
+    background-color: rgba(0, 0, 0, 0.446);
+    text-align: center;
+    height: 100px;
+    width: 100%;
+    margin-top: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.photo-cred {
+    align-self: center;
+    margin-bottom: 15px;
+    color: rgba(255, 255, 255, 0.622);
+    font-size: 12px;
+}
+
+.content {
+    height: 100%;
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+}
+
+.content .form-section {
+    
+}
+
+#form-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+#form-info h2 {
+    font-size: 20px;
+    padding: 10px;
+    width: 80%;
+    margin-left: 40px;
+}
+
+#form-info h2:nth-child(2) {
+    margin-bottom: 50px;
+}
+
+#form {
+    flex: 1;
+    background-color: white;
+    box-shadow: 0 7px 5px -5px rgba(0, 0, 0, 0.25);
+}
+
+#form-buttons {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-left: 50px;
+}
+
+#form-buttons button {
+    padding: 15px;
+    width: 195px;
+    color: white;
+    background-color: green;
+    border-radius: 10px;
+    border: none;
+    font-size: 14px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+#form-buttons a {
+    text-decoration: none;
+    color: green;
+}
+
+
+.italicize {
+    font-style: italic;
+}
